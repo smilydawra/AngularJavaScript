@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  brews: Object = {};
+  brews: any;
 
   constructor(private _http: HttpService) { }
 
